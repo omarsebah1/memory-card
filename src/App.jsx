@@ -1,6 +1,6 @@
 import GameHeader from "./components/GameHeader"
 import Card from "./components/Card"
-import WinMessage from "./components/winMessage"
+import WinMessage from './components/WinMessage'
 import Confetti from 'react-confetti';
 import { useGameLogic } from "./hooks/useGameLogic";
 const cardsValue = [
@@ -42,7 +42,7 @@ function App() {
         ))}
         </div>
 
-        <footer class="footer">
+        <footer className="footer">
             2025 Omar Sebah. All Rights Reserved.
         </footer>
         
